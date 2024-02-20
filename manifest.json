@@ -1,6 +1,6 @@
 {
   "additional_parameters": {
-    "key": {}
+    "token": {}
   },
   "auth": "api_key",
   "datatypes": {

@@ -8,6 +8,6 @@
     }
   },
   "type": "system:rest",
-  "url_pattern": "https://api.trello.com/1/%s?key={{@ key @}}&token=$SECRET(api_key)",
+  "url_pattern": "https://api.trello.com/1/%s?token={{@ token @}}&key=$SECRET(api_key)",
   "verify_ssl": true
 }
