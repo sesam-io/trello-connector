@@ -1,0 +1,13 @@
+{
+  "_id": "{{@ system @}}",
+  "operations": {
+    "boards-list": {
+      "id_expression": "{{ id }}",
+      "method": "GET",
+      "url": "members/me/boards"
+    }
+  },
+  "type": "system:rest",
+  "url_pattern": "https://api.trello.com/1/%s?key={{@ key @}}&token=$SECRET(api_key)",
+  "verify_ssl": true
+}

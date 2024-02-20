@@ -1,0 +1,12 @@
+{
+  "additional_parameters": {
+    "key": {}
+  },
+  "auth": "api_key",
+  "datatypes": {
+    "boards": {
+      "template": "templates/boards.json"
+    }
+  },
+  "system-template": "templates/system.json"
+}
